@@ -15,7 +15,7 @@ public class HelloController {
 	
 	@GetMapping("/bsm")
 	public String bsm() {
-		return"<b>Lista de BSM<br />"
+		return"<b>Lista de BSM's <br />"
 				+ "BSM-GM - Mentalidade de Crescimento <br />"
 				+ "BSM-P- Persistência<br />"
 				+ "BSM-PR - Responsabilidade Pessoal<br />"
@@ -33,9 +33,5 @@ public class HelloController {
 				+ "3 - Revisar todo o conteúdo lecionado na semana; <br />"
 				+ "4 - Aprender mais sobre o GitHub. <br />";
 	}
-	
-	
-	
-	
 	
 }
